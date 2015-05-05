@@ -14,7 +14,9 @@
     <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{76F1466A-8B6D-4E39-A767-685A06062A39};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <NuGetPackageImportStamp>3cda0357</NuGetPackageImportStamp>
+    <NuGetPackageImportStamp>f4c402ec</NuGetPackageImportStamp>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxBundlePlatforms>arm</AppxBundlePlatforms>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -127,6 +129,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Help\Lumia Imaging SDK.chm" />
+    <None Include="Help\Nokia Imaging SDK.chm" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
